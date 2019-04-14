@@ -1,0 +1,147 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#myname {
+  font-size: 32px;
+} 
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.topthreeparagraphs{
+  color:blue;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image:
+  url('https://img2.10bestmedia.com/Images/Photos/223595/2535378808-f424439a94-b_54_990x660_201404240607.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+#firstfav{
+  font-size: 40px;
+  font-weight:	350;
+  color: grey;  
+  text-align: center;
+}
+#secondfav{
+  font-size: 36px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+#thirdfav{
+  font-size: 38px;
+  font-weight: 500;
+  color: orange;
+  text-align: center;
+}
+  #fourthfav{
+  font-size: 32px;
+  font-weight: 600;
+  color: green;
+  text-align: center;
+  }
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.h3 id{
+  font-weight: bold;
+  text-align: center;
+}
+#firstquote {
+  color: green;
+  font-size: 32px;
+  font-family: serif;
+}
+#secondquote {
+  color: orange;
+  font-size: 28px;
+  font-family: fantasy;
+}
+#thirdquote{
+  color: navy blue;
+  font-size: 24px;
+  font-family: cursive;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+  
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
